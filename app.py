@@ -14,7 +14,7 @@ model_choice = st.sidebar.selectbox("Select Model", ("Linear Regression", "Rando
 
 # Load corresponding model
 if model_choice == "Linear Regression":
-    model = pickle.load(open('linear_regression_rent_model_pipeline.pkl', 'rb'))
+    model = pickle.load(open('linear_regression_rent_model_pipeline1.pkl', 'rb'))
 else:
     model = pickle.load(open('random_forest_rent_model_pipeline.pkl', 'rb'))
 
